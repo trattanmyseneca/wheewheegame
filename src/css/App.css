@@ -1,0 +1,105 @@
+body {
+  height: 60vh;
+  background-color: antiquewhite;
+}
+
+header {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  padding-top: 0px;
+  height: 100%;
+}
+
+#diceimage {
+  height: 200px;
+  width: 200px;
+}
+
+.buttons input[type=button] {
+  margin-right: 10px;
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#buttons_price, #buttons_numbers, #results {
+  float: left;
+}
+
+#buttons_price {
+}
+
+#buttons_numbers {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+  #buttons_numbers .number {
+      margin-right: 10px;
+      margin-top: 20px;
+      height: 50px;
+      width: 50px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  #buttons_numbers .numberClicked {
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
+}
+
+  #buttons_numbers .opt {
+      margin-right: 10px;
+      margin-top: 20px;
+      height: 50px;
+      width: 115px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+
+#results {
+  height: 100%;
+  border: 10px solid aquamarine;
+  padding: 20px;
+}
+
+#numbers {
+  height: 90%;
+}
+
+#costplayed {
+  height: 10%;
+}
+
+#random-div {
+  margin-top: 40px;
+}
+
+#Random {
+  margin-right: 10px;
+  margin-top: 20px;
+  height: 50px;
+  width: 365px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#main-div {
+  margin: auto;
+  width: fit-content;
+  height:100%;
+}
+
+.clear {
+  clear: both
+}
+#root{
+  height: 100%;
+}
